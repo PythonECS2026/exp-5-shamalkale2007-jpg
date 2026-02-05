@@ -2,24 +2,24 @@
 # Coder:Shamal 
 # Date:26/01/26
 
-print("--- Task List Manager ---")
-tasks = ["Sleep", "Getup", "Brush"]
-print(f"Original Tasks: {tasks}")
+# Original list
+tasks = ['Sleep', 'Getup', 'Brush']
+print("Original Tasks:", tasks)
 
-# Write your code here
-# TODO: Add & Print new Task from user
-new_task = input("Enter a new task to add: ")
-tasks.append(new_task)
-print(f"Tasks after Adding: {tasks}")
-# TODO: Edit & Print task selected by User
-edit_index = int(input("Enter the index of the task to edit: "))
-edited_task = input("Enter the new task: ")
-tasks[edit_index] = edited_task
-print(f"Tasks after Editing: {tasks}")
-# TODO: Remove & Print a Task selected by User
-remove_index = int(input("Enter the index of the task to remove: "))
-tasks.pop(remove_index)
-print(f"Tasks after Removing: {tasks}")
-# TODO: Sort & Print the Tasks
+# Adding a task
+tasks.append('College')
+print("Tasks after Adding:", tasks)
+
+# Editing a task
+tasks[1] = 'Get Up'
+print("Tasks after Editing:", tasks)
+
+# Removing a task
+tasks.remove('Sleep')
+print("Tasks after Removing:", tasks)
+
+# Sorting tasks
 tasks.sort()
-print(f"Tasks after Sorting: {tasks}")
+print("Tasks after Sorting:", tasks)
+
+
