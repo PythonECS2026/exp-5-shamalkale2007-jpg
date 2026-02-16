@@ -1,5 +1,5 @@
 # AIM: Task List Manager
-# Coder:Shamal 
+# Coder:Shamal
 # Date:26/01/26
 
 # Original task list
@@ -25,6 +25,7 @@ print("Tasks after Removing:", tasks)
 # --- Sort Tasks ---
 tasks.sort()
 print("Tasks after Sorting:", tasks)
+
 
 
 
